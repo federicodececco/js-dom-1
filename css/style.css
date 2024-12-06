@@ -10,7 +10,12 @@
   margin: auto;
   align-items: center;
 }
-
+main {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+}
 /*---------------------------
 
 
@@ -30,14 +35,21 @@
 
 ------------------------------*/
 
-.container > div {
-  margin: 0 auto;
-  max-width: fit-content;
-}
+
 .div:first-of-type {
   position: fixed;
 }
-.imagine {
+.check {
   position: relative;
-  left: 20px;
+  left: 1.3025rem;
+}
+.checkers {
+  position: relative;
+  right: 1.3025rem;
+}
+.dark {
+  background-color: black;
+}
+.light {
+  background-color: white;
 }
